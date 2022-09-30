@@ -2,8 +2,8 @@ CreateTunnel() {
 BIWhite='\033[5;97m'
 White='\033[1;97m'
 NC='\033[0m' # No Color
-#sleep for 60 seconds to allow the networking stack to start before executing at reboot
-##This command is usefull when you add this script to crontab like: @reboot /home/ehsan/tunnel.sh >> /home/ehsan/tunnel.log 2>&1
+#sleep for 10 seconds to allow the networking stack to start before executing at reboot
+##This command is usefull when you add this script to crontab like: @reboot ~/tunnel.sh >> ~/tunnel.log 2>&1
 sleep 10
 
 #run the port forwarding command as user tunnel
