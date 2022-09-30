@@ -4,7 +4,7 @@ services:
     ports:
       - "25117:25117"
       - "25117:25117/udp"
-    container_name: ss-rust
+    container_name: shadowsocks
     restart: always
     volumes:
       - "/etc/shadowsocks-rust:/etc/shadowsocks-rust"

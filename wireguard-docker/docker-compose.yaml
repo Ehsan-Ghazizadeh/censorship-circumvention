@@ -11,7 +11,7 @@ services:
       - PUID=1001
       - PGID=1001
       - TZ=Asia/Tehran
-      - SERVERURL=nl2.expertip.info #optional
+      - SERVERURL=example.org #optional
       - SERVERPORT=51820 #optional
       - PEERS=100 #optional
       - PEERDNS=1.1.1.1 #optional
