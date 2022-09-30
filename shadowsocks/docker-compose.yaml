@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  shadowsocks-rust:
+    ports:
+      - "25117:25117"
+      - "25117:25117/udp"
+    container_name: ss-rust
+    restart: always
+    volumes:
+      - "/etc/shadowsocks-rust:/etc/shadowsocks-rust"
+    image: teddysun/shadowsocks-rust
